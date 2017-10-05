@@ -1,0 +1,14 @@
+"""
+Faça um Programa que peça a temperatura em graus Farenheit, transforme e mostre a temperatura em graus Celsius.
+
+Fórmula
+
+C = (5 * (F-32) / 9)
+
+"""
+
+f = float(input("Valor em farenheit: "))
+
+c = (5 * (f-32) / 9)
+
+print("%.2f F = %.2f C" %(f,c))
