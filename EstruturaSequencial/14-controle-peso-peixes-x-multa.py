@@ -9,3 +9,16 @@ variável multa o valor da multa que João deverá pagar. Caso contrário mostra
 tais variáveis com o conteúdo ZERO.
 
 """
+
+
+peso_de_peixes = 0
+excesso = 0
+valor_da_multa = 0
+
+peso_de_peixes = float(input('Peso dos peixes: '))
+
+if peso_de_peixes > 50.0:
+    excesso = peso_de_peixes - 50.0
+    valor_da_multa = 4.0 * excesso
+
+print('Peso de Peixes: {} kg\nExcesso: {} kg\nValor da Multa R$: {}'.format(peso_de_peixes, excesso, valor_da_multa))
